@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hiype v1", "Hiype v1\Hiype v1.csproj", "{AAA0EABC-E00B-425C-9135-72C71B021434}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAA0EABC-E00B-425C-9135-72C71B021434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA0EABC-E00B-425C-9135-72C71B021434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA0EABC-E00B-425C-9135-72C71B021434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA0EABC-E00B-425C-9135-72C71B021434}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAE9297F-8F03-4C4C-A08E-D11CEF3B38D3}
+	EndGlobalSection
+EndGlobal
