@@ -98,5 +98,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Untitled.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Untitled%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="send-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="upload-to-cloud.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

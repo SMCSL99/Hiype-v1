@@ -6,12 +6,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hiype_v1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="720" Width="1280">
     <Grid Background="#FF332C2C">
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="434" VerticalAlignment="Center" Width="212" Background="Black">
+        <Image Margin="14,0,-14,0" Source="/Untitled(1).png" Grid.ColumnSpan="2"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="704" VerticalAlignment="Center" Width="314" Background="Black" Opacity="0.5">
             <ui:DynamicScrollViewer HorizontalAlignment="Left" Foreground="White">
                 <ui:DynamicScrollBar ViewportSize="0.3"/>
             </ui:DynamicScrollViewer>
         </Border>
+        <ui:TextBox HorizontalAlignment="Left" Margin="377,631,0,0" TextWrapping="Wrap" VerticalAlignment="Top" PlaceholderText="Message" Width="806" SelectionOpacity="0.75" TextChanged="TextBox_TextChanged" ClearButtonEnabled="False" OverridesDefaultStyle="False" Grid.ColumnSpan="1" MinWidth="800" Grid.IsSharedSizeScope="True" UseLayoutRounding="False" Padding="10,8,50,7" ScrollViewer.CanContentScroll="True" Cursor="IBeam"/>
+        <ui:Button Margin="1211,631,0,0" VerticalAlignment="Top" Height="35" Width="46" InputScope="Default">
+            <Image Height="25" Width="23" Source="send-icon.png"/>
+
+        </ui:Button>
+        <ui:Button Margin="326,631,0,0" VerticalAlignment="Top" Height="35" Width="46" InputScope="Default">
+            <Image Height="25" Width="23" Source="/upload-to-cloud.png"/>
+
+        </ui:Button>
     </Grid>
 </Window>
