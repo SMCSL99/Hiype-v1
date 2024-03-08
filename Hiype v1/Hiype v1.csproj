@@ -110,5 +110,17 @@
   <ItemGroup>
     <Resource Include="upload-to-cloud.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Hyipeicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image_2024-03-07_191604380.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VideoIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VoiceIcon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
